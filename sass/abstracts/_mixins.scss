@@ -28,6 +28,12 @@
 	- tab-port
 	- tab-land
 	- big-desktop
+
+	ORDER of media-queries must be from large size to small
+
+	ORDER of applying media queries: Base + typography > general layout + grid > Page layout > Components
+
+	1em = 16px
 */
 @mixin respond($breakpoint) {
 	@if $breakpoint == phone {
