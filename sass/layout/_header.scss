@@ -10,12 +10,12 @@
 	background-position: top;
 	background-attachment: fixed;
 	position: relative; /* * is required to set child elements to position absolute within the parent */
-	-weblit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); /* * border-shaping */
 	overflow: hidden;
 
 	@include respond(phone) {
-		-weblit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 		clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 	}
 

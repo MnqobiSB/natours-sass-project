@@ -259,6 +259,7 @@ body {
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
+  -webkit-perspective: 150rem;
   position: relative;
   height: 52rem; }
   .card__side {
@@ -680,13 +681,13 @@ body {
   background-attachment: fixed;
   position: relative;
   /* * is required to set child elements to position absolute within the parent */
-  -weblit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   /* * border-shaping */
   overflow: hidden; }
   @media (max-width: 37.5em) {
     .header {
-      -weblit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
   .header__logo-box {
     position: absolute;
