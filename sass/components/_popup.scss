@@ -25,6 +25,10 @@
 		@include respond (tab-port) {
 			width: 80%;
 		}
+
+		@include respond (phone) {
+			width: 100%;
+		}
 	}
 
 	&__left {
@@ -45,6 +49,7 @@
 
 		@include respond (tab-port) {
 			width: 100%;
+			padding: 1rem 3rem;
 		}
 	}
 

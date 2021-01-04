@@ -564,6 +564,9 @@ body {
     @media (max-width: 56.25em) {
       .popup__content {
         width: 80%; } }
+    @media (max-width: 37.5em) {
+      .popup__content {
+        width: 100%; } }
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
@@ -578,7 +581,8 @@ body {
     padding: 3rem 5rem; }
     @media (max-width: 56.25em) {
       .popup__right {
-        width: 100%; } }
+        width: 100%;
+        padding: 1rem 3rem; } }
   .popup__img {
     display: block;
     width: 100%; }
